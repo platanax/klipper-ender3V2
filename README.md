@@ -9,3 +9,5 @@ Initial conf from : https://github.com/LeeOtts/Ender3v2-Klipper-Configs
 Backup from : https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.html
 
 KAMP : https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging?tab=readme-ov-file
+
+OBICO with local obico-server
