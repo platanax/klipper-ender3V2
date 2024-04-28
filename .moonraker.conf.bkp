@@ -17,7 +17,6 @@ cors_domains =
 trusted_clients = 
 	10.0.0.0/8
 	127.0.0.0/8
-	169.254.0.0/16
 	172.16.0.0/12
 	192.168.0.0/16
 	FE80::/10
@@ -89,6 +88,12 @@ path = ~/Klipper-Adaptive-Meshing-Purging
 origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
+
+[update_manager z_calibration]
+type = git_repo
+path = /home/pi/klipper_z_calibration
+origin = https://github.com/protoloft/klipper_z_calibration.git
+managed_services = klipper
 
 [update_manager moonraker-obico]
 type = git_repo
