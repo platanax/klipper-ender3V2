@@ -3,6 +3,7 @@ Configuration for an Ender 3 V2 running Klipper / Mainsail
 - CR Touch
 - Rasberry Pi 4
 - Logitech C920
+- Klipper Screen (piTFT50 V2.1)
 
 Initial conf from : https://github.com/LeeOtts/Ender3v2-Klipper-Configs
 
