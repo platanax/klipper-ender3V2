@@ -89,16 +89,6 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
-[update_manager moonraker-obico]
-type = git_repo
-path = /home/pi/moonraker-obico
-origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
-env = /home/pi/moonraker-obico/../moonraker-obico-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	moonraker-obico
-
 [job_queue]
 load_on_startup = True
 
@@ -119,15 +109,8 @@ parkhead = true
 previewimage = true
 parkpos = back_left
 snapshoturl = http://localhost:8080/?action=snapshot
-fw_retract = true
-
-[update_manager Klippain-ShakeTune]
-type = git_repo
-origin = https://github.com/Frix-x/klippain-shaketune.git
-path = ~/klippain_shaketune
-virtualenv = ~/klippain_shaketune-env
-requirements = requirements.txt
-system_dependencies = system-dependencies.json
-primary_branch = main
-managed_services = klipper
+park_retract_speed = 30
+park_retract_distance = 5
+park_extrude_speed = 20
+park_extrude_distance = 5
 
