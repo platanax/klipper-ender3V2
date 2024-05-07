@@ -12,3 +12,5 @@ Backup from : https://docs.vorondesign.com/community/howto/EricZimmerman/BackupC
 KAMP : https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging?tab=readme-ov-file
 
 OBICO with local obico-server
+
+Spool management : https://github.com/Donkie/Spoolman?tab=readme-ov-file
