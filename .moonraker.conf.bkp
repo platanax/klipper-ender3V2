@@ -107,7 +107,7 @@ enabled = false
 mode = layermacro
 parkhead = true
 previewimage = true
-parkpos = back_left
+parkpos = center
 snapshoturl = http://localhost:8080/?action=snapshot
 park_retract_speed = 30
 park_retract_distance = 5
