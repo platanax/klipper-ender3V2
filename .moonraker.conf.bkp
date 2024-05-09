@@ -103,7 +103,7 @@ locked_while_printing = True
 restart_klipper_when_powered = True
 
 [timelapse]
-enabled = false
+enabled = true
 mode = layermacro
 parkhead = true
 previewimage = true
@@ -111,7 +111,7 @@ parkpos = custom
 park_custom_pos_x = 0
 park_custom_pos_y = 120
 park_custom_pos_dz = 0
-snapshoturl = http://localhost:8080/?action=snapshot
+snapshoturl = http://192.168.1.23:8080/?action=snapshot
 park_retract_speed = 30
 park_retract_distance = 5
 park_extrude_speed = 20
