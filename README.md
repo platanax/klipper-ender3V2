@@ -13,7 +13,8 @@
 * Backup your config files
 * Easy filament settings adjustment between your slicer and the prints : override each of your filament's measured calibration parameters in OrcaSlicer and adjust each print seamlessly for your filament
 
-## Start G-code adapted to take OrcaSlicer filament parameters
+## G-code for OrcaSlicer
+### Start G-code for printer
 ```
 ;Nozzle diameter =[nozzle_diameter]
 ;Filament type =[filament_type]
@@ -22,6 +23,12 @@
 ;M190 S[hot_plate_temp_initial_layer]
 ;M109 S[nozzle_temperature_initial_layer]
 START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer]  BED_TEMP=[hot_plate_temp_initial_layer] MATERIAL_TYPE=[filament_type]  LAYER_HEIGHT=[layer_height]
+```
+
+### Start G-code for filament
+```
+; filament start gcode
+SET_RETRACTION RETRACT_LENGTH=[filament_retraction_length] RETRACT_SPEED=[filament_retraction_speed]
 ```
 
 ## Sources
