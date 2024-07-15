@@ -14,3 +14,7 @@ KAMP : https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging?tab=readme-o
 OBICO with local obico-server
 
 Spool management : https://github.com/Donkie/Spoolman?tab=readme-ov-file
+
+Test Speed macros : https://ellis3dp.com/Print-Tuning-Guide/articles/determining_max_speeds_accels.html#usage-of-the-test_speed-macro
+
+Klipper Shake&Tune : https://github.com/Frix-x/klippain-shaketune
