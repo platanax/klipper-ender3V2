@@ -10,7 +10,7 @@
 
 
 ## Features
-* KAMP iuntegration to optimize bed mesh for each print
+* KAMP integration to optimize bed mesh for each print
 * SpoolMan helps you to keep track of your filament spools and of your remaining filament weight
 * Backup your config files
 * Easy filament settings adjustment between your slicer and the prints : override each of your filament's measured calibration parameters in OrcaSlicer and adjust each print seamlessly for your filament
