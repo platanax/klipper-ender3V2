@@ -26,11 +26,13 @@ START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer]  BED_TEMP=[hot_plat
 ```
 
 <<<<<<< HEAD
+
 Spool management : https://github.com/Donkie/Spoolman?tab=readme-ov-file
 
 Test Speed macros : https://ellis3dp.com/Print-Tuning-Guide/articles/determining_max_speeds_accels.html#usage-of-the-test_speed-macro
 
 Klipper Shake&Tune : https://github.com/Frix-x/klippain-shaketune
+
 =======
 ### Start G-code for filament
 ```
