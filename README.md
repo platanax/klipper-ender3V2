@@ -4,6 +4,8 @@
 - Rasberry Pi 4
 - Logitech C920 webcam
 - Klipper Screen (piTFT50 V2.1)
+- Klipper Shake&Tune (not tested yet)
+- Test speed macros (not tested yet)
 
 
 
