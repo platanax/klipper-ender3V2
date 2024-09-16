@@ -121,13 +121,13 @@ parkpos = custom
 park_custom_pos_x = 0
 park_custom_pos_y = 120
 park_custom_pos_dz = 0
-snapshoturl = http://192.168.1.23:8080/?action=snapshot
+snapshoturl = http://klipper.lemarie.biz:8080/?action=snapshot
 park_retract_speed = 30
 park_retract_distance = 5
 park_extrude_speed = 20
 park_extrude_distance = 5
 
 [spoolman]
-server = http://192.168.1.23:7912
+server = http://klipper.lemarie.biz:7912
 sync_rate = 5
 
