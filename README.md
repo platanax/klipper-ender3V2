@@ -1,12 +1,10 @@
 ## Configuration for an Ender 3 V2 running Klipper / Mainsail
-- Stock extruder
+- Creality Sprite Extruder Pro
 - CR Touch
 - Rasberry Pi 4
 - Logitech C920 webcam
 - Klipper Screen (piTFT50 V2.1)
-- Klipper Shake&Tune (not tested yet)
-- Test speed macros (not tested yet)
-
+- adxl345
 
 
 ## Features
