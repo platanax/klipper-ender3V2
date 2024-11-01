@@ -113,7 +113,7 @@ locked_while_printing = True
 restart_klipper_when_powered = True
 
 [timelapse]
-enabled = true
+enabled = false
 mode = layermacro
 parkhead = true
 previewimage = true
